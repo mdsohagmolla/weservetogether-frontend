@@ -1,36 +1,117 @@
-This is a [Next.js](https://nextjs.org) project bootstrapped with [`create-next-app`](https://nextjs.org/docs/app/api-reference/cli/create-next-app).
+# TogetherWeServe 🌱
 
-## Getting Started
+**TogetherWeServe** is a community-driven event management platform that brings people together to make a positive impact on society. Users can create social service events, join community initiatives, and manage their volunteer activities in one place.
 
-First, run the development server:
+Our mission is simple: **More Helping, More Smiling.**
 
-```bash
-npm run dev
-# or
-yarn dev
-# or
-pnpm dev
-# or
-bun dev
+## 🌐 Live Demo
+
+- **Live Website:** [https://we-serve-together-frontend.vercel.app/]
+- **GitHub Repository:** [https://github.com/mdsohagmolla/weservetogether-frontend]
+
+## 📸 Project Overview
+
+TogetherWeServe helps communities organize and participate in meaningful social activities, such as:
+
+- Winter clothes distribution
+- Food donation programs
+- Tree plantation campaigns
+- Community cleaning drives
+- Helping underprivileged people
+
+## ✨ Key Features
+
+- **User Authentication:** Register and log in securely using email and social authentication.
+- **Create Events:** Authenticated users can create social service events with event details, images, dates, and locations.
+- **Upcoming Events:** Browse upcoming community events and discover opportunities to volunteer.
+- **Event Details:** View complete information about each event.
+- **Join Events:** Logged-in users can participate in community events.
+- **Manage Events:** Organizers can update and delete their own events.
+- **Joined Events:** Users can view the events they have joined.
+- **Responsive Design:** Optimized for desktop, tablet, and mobile devices.
+- **Interactive UI:** Clean interface with user-friendly navigation and notifications.
+
+## 🛠️ Technologies Used
+
+### Frontend
+- Next.js 16
+- React
+- TypeScript
+- Tailwind CSS
+- Lucide React
+- Sonner
+
+### Backend
+- Node.js
+- Express.js
+- MongoDB
+
+### Authentication
+- Better Auth
+
+### Deployment
+- Vercel
+
+## 📂 Project Structure
+
+```text
+we-serve-together/
+├── public/
+├── src/
+│   ├── app/
+│   │   ├── api/
+│   │   ├── add-event/
+│   │   ├── upcoming-event/
+│   │   ├── manage-event/
+│   │   ├── join-event/
+│   │   ├── log-in/
+│   │   └── sign-up/
+│   ├── components/
+│   └── ...
+├── .env
+├── next.config.ts
+├── package.json
+└── README.md
 ```
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+## ⚙️ Installation and Setup
 
-You can start editing the page by modifying `app/page.tsx`. The page auto-updates as you edit the file.
+Follow these steps to run the project locally.
 
-This project uses [`next/font`](https://nextjs.org/docs/app/building-your-application/optimizing/fonts) to automatically optimize and load [Geist](https://vercel.com/font), a new font family for Vercel.
+### 1. Clone the Repository
 
-## Learn More
+```bash
+git clone YOUR_GITHUB_REPOSITORY_URL
+```
 
-To learn more about Next.js, take a look at the following resources:
+### 2. Navigate to the Project Folder
 
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
+```bash
+cd we-serve-together
+```
 
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js) - your feedback and contributions are welcome!
+### 3. Install Dependencies
 
-## Deploy on Vercel
+```bash
+npm install
+```
 
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
 
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/app/building-your-application/deploying) for more details.
+
+## 🎯 Project Goal
+
+The goal of TogetherWeServe is to make social volunteering easier and more accessible by connecting people with community service opportunities.
+
+We believe that small acts of kindness can create a big difference.
+
+## 👨‍💻 Author
+
+**Md Sohag Molla**
+
+- GitHub: (https://github.com/mdsohagmolla)
+
+---
+
+⭐ If you like this project, consider giving it a star!
+
+**TogetherWeServe — More Helping, More Smiling.** 💚
